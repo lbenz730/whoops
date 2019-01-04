@@ -5,7 +5,7 @@ source("powerrankings.R")
 source("Ivy_Sims.R")
 source("tourney_sim.R")
 confs <- read.csv("conferences.csv", as.is = T)
-y <- read.csv("Results/NCAA_WHoops_Results_12_24_2018.csv", as.is = T)
+y <- read.csv("Results/NCAA_WHoops_Results_1_4_2019.csv", as.is = T)
 ########################  Data Cleaning ########################################
 y <- y %>%
   mutate(scorediff = teamscore - oppscore, 
@@ -64,7 +64,7 @@ yusag_plot(powranks)
 ################################ Ivy Sims ######################################
 playoffs <- ivy.sim(nsims = 5000)
 simresults <- fast.sim(nsims = 20000)
-psf_results <- psf(nsims = 500, year = 2018, months = c(2,2), days = c(23,24))
+psf_results <- psf(nsims = 1000, year = 2019, months = c(1), days = c(5))
 write.csv(simresults, "Predictions/womens_simresults.csv", row.names = F)
 
 ### Win Plots
