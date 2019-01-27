@@ -1,11 +1,14 @@
 #############################  Read CSVs #######################################
 library(dplyr)
+library(ncaahoopR)
+library(knitr)
+library(kableExtra)
 source("helpers.R")
 source("powerrankings.R")
 source("Ivy_Sims.R")
 source("tourney_sim.R")
 confs <- read.csv("conferences.csv", as.is = T)
-y <- read.csv("Results/NCAA_WHoops_Results_1_4_2019.csv", as.is = T)
+y <- read.csv("Results/NCAA_WHoops_Results_1_27_2019.csv", as.is = T)
 ########################  Data Cleaning ########################################
 y <- y %>%
   mutate(scorediff = teamscore - oppscore, 
@@ -63,10 +66,12 @@ yusag_plot(powranks)
 
 ################################ Ivy Sims ######################################
 playoffs <- ivy.sim(nsims = 5000)
-simresults <- fast.sim(nsims = 20000)
-psf_results <- psf(nsims = 1000, year = 2019, months = c(1), days = c(5))
-write.csv(simresults, "Predictions/womens_simresults.csv", row.names = F)
+psf_results <- psf(nsims = 1000, year = 2019, months = c(1), days = c(12))
+playoff_graphic()
 
+
+simresults <- fast.sim(nsims = 20000)
+write.csv(simresults, "Predictions/womens_simresults.csv", row.names = F)
 ### Win Plots
 par(mfrow = c(2,4))
 colors <- c("brown", "skyblue", "red", "forestgreen", "firebrick4", "maroon", "orange", "navy")

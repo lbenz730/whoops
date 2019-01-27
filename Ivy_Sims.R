@@ -188,7 +188,8 @@ ivy.sim <- function(nsims) {
                          seed1_prob = rep(NA, length(ivy)),
                          seed2_prob = rep(NA, length(ivy)),
                          seed3_prob = rep(NA, length(ivy)),
-                         seed4_prob = rep(NA, length(ivy)))
+                         seed4_prob = rep(NA, length(ivy)),
+                         stringsAsFactors = F)
   
   
   for(i in 1:length(ivy)) {
@@ -204,7 +205,7 @@ ivy.sim <- function(nsims) {
     mutate(date = as.Date(date)) %>%
     filter(date != Sys.Date()) %>%
     rbind(playoffs %>% mutate(date = Sys.Date()))
-  write.csv(playoff_history, "Predictions/playoff_history.csv")
+  write.csv(playoff_history, "Predictions/playoff_history.csv", row.names = F)
   return(playoffs)
 }
 
@@ -228,10 +229,12 @@ psf <- function(nsims, year, months, days) {
   
   
   # Create Data Frame to Store SwingFactor
-  swingfactor <- data.frame(home = tochange$team,
+  swingfactor <- data.frame(date = tochange$date,
+                            home = tochange$team,
                             away = tochange$opponent,
                             psf = rep(NA, nrow(tochange)),
-                            auto_bid_sf = rep(NA, nrow(tochange)))
+                            auto_bid_sf = rep(NA, nrow(tochange)),
+                            stringsAsFactors = F)
   
   # Switch
   q = 0
@@ -406,6 +409,11 @@ psf <- function(nsims, year, months, days) {
       swingfactor$auto_bid_sf[k/2] <- sum(abs(simplayoffs$auto_bid_2 - simplayoffs$auto_bid_1))
     }
   }
+  
+  psf_history <- read.csv("Predictions/psf_history.csv", as.is = T) %>%
+    filter(as.Date(date) != Sys.Date())
+  psf_history <- rbind(psf_history, swingfactor) 
+  write.csv(psf_history, "Predictions/psf_history.csv", row.names = F)
   write.table(swingfactor, "Predictions/psf.csv", row.names = F, col.names = T, sep = ",")
   return(swingfactor)
 }

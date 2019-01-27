@@ -192,3 +192,82 @@ conf_sim <- function(conf, nsims) {
   }
   return(results)
 }
+
+####### Ivy League Graphics
+playoff_graphic <- function() {
+  background_colors <- arrange(playoffs, desc(playoff_prob), desc(auto_bid)) %>%
+    pull(Team) %>%
+    sapply(., function(x) { ncaa_colors$primary_color[ncaa_colors$ncaa_name == x] })
+  text_colors <- arrange(playoffs, desc(playoff_prob), desc(auto_bid)) %>%
+    pull(Team) %>%
+    sapply(., function(x) { ncaa_colors$secondary_color[ncaa_colors$ncaa_name == x] })
+  text_colors[c("Brown", "Dartmouth", "Cornell")] <- "#FFFFFF"
+  
+  
+  mutate(playoffs, auto_bid = case_when(
+    auto_bid > 0 ~ auto_bid,
+    playoff_prob > 0 ~ 0.1)
+  ) %>%
+    arrange(desc(playoff_prob), desc(auto_bid)) %>%
+    rename("Team" = Team,
+           "Auto Bid" = auto_bid,
+           "Playoff Probability" = playoff_prob,
+           "1st Seed" = seed1_prob,
+           "2nd Seed" = seed2_prob,
+           "3rd Seed" = seed3_prob,
+           "4th Seed" = seed4_prob) %>%
+    kable(., align = "ccccccc") %>%
+    kable_styling("striped", full_width = F, position = "center") %>%
+    row_spec(1, color = text_colors[1], background = background_colors[1], bold = T) %>%
+    row_spec(2, color = text_colors[2], background = background_colors[2], bold = T) %>%
+    row_spec(3, color = text_colors[3], background = background_colors[3], bold = T) %>%
+    row_spec(4, color = text_colors[4], background = background_colors[4], bold = T) %>%
+    row_spec(5, color = text_colors[5], background = background_colors[5], bold = T) %>%
+    row_spec(6, color = text_colors[6], background = background_colors[6], bold = T) %>%
+    row_spec(7, color = text_colors[7], background = background_colors[7], bold = T) %>%
+    row_spec(8, color = text_colors[8], background = background_colors[8], bold = T) %>%
+    row_spec(0, bold = T, font_size = 16) %>%
+    add_header_above(c("Ivy League Women's Basketball Playoff Odds" = 7), bold = T)
+}
+
+psf_graphic <- function() {
+  background_colors <- arrange(playoffs, desc(playoff_prob), desc(auto_bid)) %>%
+    pull(team) %>%
+    sapply(., function(x) { ncaa_colors$primary_color[ncaa_colors$ncaa_name == x] })
+  text_colors <- arrange(playoffs, desc(auto_bid), desc(playoff_prob), desc(seed1_prob)) %>%
+    pull(team) %>%
+    sapply(., function(x) { ncaa_colors$secondary_color[ncaa_colors$ncaa_name == x] })
+  text_colors[c("Brown", "Dartmouth", "Cornell", "Harvard")] <- "#FFFFFF"
+  tmp <- text_colors["Penn"]
+  text_colors["Penn"] <- background_colors["Penn"]
+  background_colors["Penn"] <- tmp
+  
+
+    arrange(psf_results, desc(psf)) %>%
+    mutate(home = cell_spec(home, 
+                            color = text_colors[home], 
+                            background = background_colors[home],
+                            bold = T),
+           away = cell_spec(away, 
+                            color = text_colors[away], 
+                            background = background_colors[away],
+                            bold = T)
+    ) %>%
+    mutate(psf = cell_spec(
+      psf, color = "white", bold = T,
+      background = spec_color(psf, end = 0.9, option = "C", direction = -1)
+    )) %>%
+    mutate(auto_bid_sf = cell_spec(
+      auto_bid_sf, color = "white", bold = T,
+      background = spec_color(auto_bid_sf, end = 0.9, option = "C", direction = -1)
+    )) %>%
+    select(-winner) %>%
+    rename("Home" = home,
+           "Away" = away,
+           "Playoff Swing Factor" = psf,
+           "Auto Bid Swing Factor" = auto_bid_sf) %>%
+    kable(., escape = F, align = "ccccccc") %>%
+    kable_styling("striped", full_width = F, position = "center") %>%
+    row_spec(0, bold = T, font_size = 16) %>%
+    add_header_above(c("Ivy League Women's Basketball Playoff Importance" = 5), bold = T)
+}
