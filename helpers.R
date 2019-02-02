@@ -126,7 +126,7 @@ ivy_joy <- function(simresults) {
   n <- nrow(simresults)
   sims <- data.frame(team = rep(NA, 8*n),
                      wins = rep(NA, 8*n))
-                     
+  
   for(i in 1:8) {
     sims$team[(n*i - n + 1):(n*i)] <- names(simresults)[i]
     sims$wins[(n*i - n + 1):(n*i)] <- floor(simresults[,i])
@@ -195,20 +195,26 @@ conf_sim <- function(conf, nsims) {
 
 ####### Ivy League Graphics
 playoff_graphic <- function() {
-  background_colors <- arrange(playoffs, desc(playoff_prob), desc(auto_bid)) %>%
+  background_colors <- arrange(playoffs, desc(round(playoff_prob,1)), desc(seed1_prob)) %>%
     pull(Team) %>%
     sapply(., function(x) { ncaa_colors$primary_color[ncaa_colors$ncaa_name == x] })
-  text_colors <- arrange(playoffs, desc(playoff_prob), desc(auto_bid)) %>%
+  text_colors <- arrange(playoffs, desc(round(playoff_prob,1)), desc(seed1_prob)) %>%
     pull(Team) %>%
     sapply(., function(x) { ncaa_colors$secondary_color[ncaa_colors$ncaa_name == x] })
   text_colors[c("Brown", "Dartmouth", "Cornell")] <- "#FFFFFF"
+  text_colors[c("Brown", "Dartmouth", "Cornell", "Harvard")] <- "#FFFFFF"
+  tmp <- text_colors["Penn"]
+  text_colors["Penn"] <- "red"
+  background_colors["Penn"] <- tmp
+  
+  
   
   
   mutate(playoffs, auto_bid = case_when(
     auto_bid > 0 ~ auto_bid,
     playoff_prob > 0 ~ 0.1)
   ) %>%
-    arrange(desc(playoff_prob), desc(auto_bid)) %>%
+    arrange(desc(round(playoff_prob,1)), desc(seed1_prob)) %>%
     rename("Team" = Team,
            "Auto Bid" = auto_bid,
            "Playoff Probability" = playoff_prob,
@@ -238,12 +244,8 @@ psf_graphic <- function() {
     pull(team) %>%
     sapply(., function(x) { ncaa_colors$secondary_color[ncaa_colors$ncaa_name == x] })
   text_colors[c("Brown", "Dartmouth", "Cornell", "Harvard")] <- "#FFFFFF"
-  tmp <- text_colors["Penn"]
-  text_colors["Penn"] <- background_colors["Penn"]
-  background_colors["Penn"] <- tmp
   
-
-    arrange(psf_results, desc(psf)) %>%
+  arrange(psf_results, desc(psf)) %>%
     mutate(home = cell_spec(home, 
                             color = text_colors[home], 
                             background = background_colors[home],

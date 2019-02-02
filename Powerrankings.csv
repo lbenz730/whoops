@@ -1,352 +1,352 @@
 "Team","Conference","YUSAG_Coefficient","rank"
-"Mississippi St.","SEC",42.31,1
-"UConn","AAC",40.18,2
-"Notre Dame","ACC",40.06,3
-"Baylor","Big 12",39.4,4
-"Oregon","Pac 12",38.12,5
-"Marquette","Big East",35.34,6
-"Louisville","ACC",30.84,7
-"Stanford","Pac 12",30.69,8
-"Oregon St.","Pac 12",29.65,9
-"Iowa St.","Big 12",28.8,10
-"NC State","ACC",24.66,11
-"Syracuse","ACC",24.27,12
-"Arizona St.","Pac 12",23.56,13
-"Iowa","Big 10",23.48,14
-"Kentucky","SEC",23.16,15
-"Gonzaga","WCC",23.02,16
-"South Carolina","SEC",22.99,17
-"Maryland","Big 10",22.34,18
-"Utah","Pac 12",21.55,19
-"West Virginia","Big 12",21.15,20
-"Michigan St.","Big 10",20.78,21
-"South Dakota St.","Summit",20.75,22
-"Miami (FL)","ACC",20.68,23
-"Texas","Big 12",20.56,24
-"Drake","MVC",20.21,25
-"Texas A&M","SEC",20.18,26
-"Central Mich.","MAC",19.21,27
-"Rutgers","Big 10",18.44,28
-"South Dakota","Summit",18.35,29
-"DePaul","Big East",18.15,30
-"Butler","Big East",18.1,31
-"Northwestern","Big 10",18.01,32
-"Ohio","MAC",17.51,33
-"UCLA","Pac 12",17.43,34
-"North Carolina","ACC",17.3,35
-"Florida St.","ACC",17.19,36
-"California","Pac 12",17.15,37
-"Missouri","SEC",16.7,38
-"Michigan","Big 10",16.6,39
-"Tennessee","SEC",16.56,40
-"Indiana","Big 10",16.52,41
-"Auburn","SEC",16.22,42
-"Virginia Tech","ACC",16.02,43
-"Arizona","Pac 12",15.84,44
-"Nebraska","Big 10",15.74,45
-"Southern California","Pac 12",15.45,46
-"Purdue","Big 10",15.41,47
-"James Madison","CAA",15.04,48
-"Georgia Tech","ACC",14.77,49
-"South Fla.","AAC",14.59,50
-"UCF","AAC",14.58,51
-"LSU","SEC",14.35,52
-"Buffalo","MAC",14.2,53
-"Arkansas","SEC",14.16,54
-"Kansas","Big 12",14.05,55
-"Kansas St.","Big 12",14.01,56
-"TCU","Big 12",14.01,57
-"Oklahoma St.","Big 12",13.37,58
-"Clemson","ACC",13.19,59
-"FGCU","A-Sun",12.74,60
-"Green Bay","Horizon",12.66,61
-"Duke","ACC",12.62,62
-"Quinnipiac","MAAC",12.55,63
-"Washington St.","Pac 12",12.5,64
-"Belmont","OVC",12.46,65
-"Saint Mary's (CA)","WCC",12.46,66
-"New Mexico","MWC",12.43,67
-"Dayton","A-10",12.4,68
-"Boston College","ACC",12.25,69
-"Georgia","SEC",12.03,70
-"Harvard","Ivy",11.84,71
-"Seton Hall","Big East",11.75,72
-"UT Arlington","Sunbelt",11.75,73
-"Minnesota","Big 10",11.68,74
-"Wyoming","MWC",11.46,75
-"Penn","Ivy",11.3,76
-"Villanova","Big East",11.07,77
-"Georgetown","Big East",10.97,78
-"Colorado","Pac 12",10.94,79
-"UC Davis","Big West",10.83,80
-"Texas Tech","Big 12",10.73,81
-"St. John's (NY)","Big East",10.59,82
-"Ohio St.","Big 10",10.08,83
-"Boise St.","MWC",10.03,84
-"BYU","WCC",10.03,85
-"Princeton","Ivy",9.82,86
-"Creighton","Big East",9.61,87
-"UAB","C-USA",9.45,88
-"Middle Tenn.","C-USA",9.4,89
-"Bucknell","Patriot",9.38,90
-"Houston","AAC",9.34,91
-"Toledo","MAC",9.06,92
-"Youngstown St.","Horizon",9.01,93
-"Rice","C-USA",8.9,94
-"Fresno St.","MWC",8.84,95
-"VCU","A-10",8.57,96
-"Cincinnati","AAC",8.38,97
-"Missouri St.","MVC",8.26,98
-"Troy","Sunbelt",8.1,99
-"IUPUI","Horizon",7.72,100
-"Wright St.","Horizon",7.64,101
-"Washington","Pac 12",7.44,102
-"Oklahoma","Big 12",7.34,103
-"Providence","Big East",7.07,104
-"Alabama","SEC",7.05,105
-"Western Ky.","C-USA",6.92,106
-"Kent St.","MAC",6.72,107
-"Pacific","WCC",6.61,108
-"Tulane","AAC",6.57,109
-"Penn St.","Big 10",6.41,110
-"Miami (OH)","MAC",6.32,111
-"Vanderbilt","SEC",6.32,112
-"Lamar University","Southland",6.05,113
-"Little Rock","Sunbelt",6.03,114
-"Northern Ill.","MAC",5.9,115
-"SFA","Southland",5.57,116
-"Hartford","Am. East",5.41,117
-"Illinois","Big 10",5.37,118
-"Old Dominion","C-USA",5.25,119
-"UNI","MVC",5.24,120
-"Utah St.","MWC",5.19,121
-"Denver","Summit",5.16,122
-"Portland St.","Big Sky",4.99,123
-"Maine","Am. East",4.96,124
-"Marist","MAAC",4.72,125
-"Wisconsin","Big 10",4.68,126
-"Drexel","CAA",4.46,127
-"Idaho St.","Big Sky",4.06,128
-"Milwaukee","Horizon",4.06,129
-"American","Patriot",4.04,130
-"Northeastern","CAA",3.87,131
-"Virginia","ACC",3.79,132
-"Idaho","Big Sky",3.68,133
-"CSUN","Big West",3.56,134
-"Lehigh","Patriot",3.38,135
-"Fordham","A-10",3.28,136
-"Morehead St.","OVC",3.24,137
-"Wake Forest","ACC",3.02,138
-"Radford","Big South",2.7,139
-"Northern Colo.","Big Sky",2.59,140
-"UT Martin","OVC",2.43,141
-"Temple","AAC",2.32,142
-"Davidson","A-10",2.26,143
-"Louisiana Tech","C-USA",2.05,144
-"UMKC","WAC",1.99,145
-"Pepperdine","WCC",1.91,146
-"North Texas","C-USA",1.9,147
-"Ball St.","MAC",1.78,148
-"Oral Roberts","Summit",1.76,149
-"Southern Ill.","MVC",1.51,150
-"Loyola Marymount","WCC",1.35,151
-"Tennessee Tech","OVC",1.18,152
-"Akron","MAC",1,153
-"Bradley","MVC",0.97,154
-"Mercer","Southern",0.97,155
-"Pittsburgh","ACC",0.97,156
-"Xavier","Big East",0.86,157
-"Chattanooga","Southern",0.68,158
-"Duquesne","A-10",0.52,159
-"North Ala.","A-Sun",0.43,160
-"UC Riverside","Big West",0.42,161
-"Yale","Ivy",0.08,162
-"Florida","SEC",0.05,163
-"High Point","Big South",-0.23,164
-"Ole Miss","SEC",-0.33,165
-"Saint Louis","A-10",-0.33,166
-"UC Irvine","Big West",-0.34,167
-"Hawaii","Big West",-0.38,168
-"UNLV","MWC",-0.6,169
-"South Alabama","Sunbelt",-0.61,170
-"SMU","AAC",-0.62,171
-"George Mason","A-10",-0.98,172
-"Towson","CAA",-1.04,173
-"Dartmouth","Ivy",-1.06,174
-"Illinois St.","MVC",-1.19,175
-"Montana St.","Big Sky",-1.29,176
-"Tulsa","AAC",-1.29,177
-"Eastern Mich.","MAC",-1.32,178
-"Southern Miss.","C-USA",-1.41,179
-"Robert Morris","NEC",-1.42,180
-"San Diego St.","MWC",-1.47,181
-"Portland","WCC",-1.53,182
-"Appalachian St.","Sunbelt",-2.01,183
-"Cleveland St.","Horizon",-2.19,184
-"Cornell","Ivy",-2.25,185
-"Bowling Green","MAC",-2.49,186
-"Nevada","MWC",-2.58,187
-"William & Mary","CAA",-2.63,188
-"San Francisco","WCC",-2.74,189
-"Montana","Big Sky",-2.83,190
-"Abilene Christian","Southland",-2.93,191
-"UNCW","CAA",-2.94,192
-"Stony Brook","Am. East",-2.98,193
-"George Washington","A-10",-3.32,194
-"Charlotte","C-USA",-3.37,195
-"Indiana St.","MVC",-3.39,196
-"Coastal Caro.","Sunbelt",-3.63,197
-"Massachusetts","A-10",-3.66,198
-"Georgia St.","Sunbelt",-3.91,199
-"Columbia","Ivy",-3.93,200
-"Jacksonville St.","OVC",-4,201
-"New Mexico St.","WAC",-4.07,202
-"Loyola Chicago","MVC",-4.1,203
-"California Baptist","WAC",-4.11,204
-"Stetson","A-Sun",-4.11,205
-"Boston U.","Patriot",-4.18,206
-"Santa Clara","WCC",-4.31,207
-"Cal St. Fullerton","Big West",-4.32,208
-"Colorado St.","MWC",-4.32,209
-"Delaware","CAA",-4.54,210
-"Air Force","MWC",-4.57,211
-"Elon","CAA",-4.88,212
-"Liberty","A-Sun",-4.91,213
-"N.C. A&T","MEAC",-5.22,214
-"Holy Cross","Patriot",-5.32,215
-"Marshall","C-USA",-5.54,216
-"Texas St.","Sunbelt",-5.55,217
-"Wichita St.","AAC",-5.58,218
-"Memphis","AAC",-5.91,219
-"SIUE","OVC",-5.93,220
-"UNC Asheville","Big South",-6,221
-"Rhode Island","A-10",-6.03,222
-"ETSU","Southern",-6.05,223
-"East Carolina","AAC",-6.12,224
-"Austin Peay","OVC",-6.17,225
-"Arkansas St.","Sunbelt",-6.18,226
-"Sam Houston St.","Southland",-6.18,227
-"Brown","Ivy",-6.2,228
-"UMES","MEAC",-6.27,229
-"Hampton","Big South",-6.42,230
-"North Dakota","Summit",-6.48,231
-"Saint Joseph's","A-10",-6.64,232
-"UTRGV","WAC",-6.69,233
-"Navy","Patriot",-6.75,234
-"Northern Ky.","Horizon",-6.76,235
-"Western Mich.","MAC",-7.04,236
-"A&M-Corpus Christi","Southland",-7.05,237
-"Utah Valley","WAC",-7.1,238
-"Eastern Wash.","Big Sky",-7.14,239
-"Western Ill.","Summit",-7.19,240
-"Furman","Southern",-7.2,241
-"Southeast Mo. St.","OVC",-7.21,242
-"San Diego","WCC",-7.23,243
-"Nicholls St.","Southland",-7.27,244
-"Samford","Southern",-7.47,245
-"Howard","MEAC",-7.59,246
-"Jacksonville","A-Sun",-7.75,247
-"Prairie View","SWAC",-8.07,248
-"Northern Ariz.","Big Sky",-8.23,249
-"Long Beach St.","Big West",-8.25,250
-"Grambling","SWAC",-8.53,251
-"Southern Utah","Big Sky",-8.59,252
-"Southern U.","SWAC",-8.66,253
-"Sacred Heart","NEC",-8.82,254
-"CSU Bakersfield","WAC",-8.83,255
-"Kennesaw St.","A-Sun",-9.06,256
-"Mount St. Mary's","NEC",-9.06,257
-"Wofford","Southern",-9.11,258
-"St. Bonaventure","A-10",-9.26,259
-"Murray St.","OVC",-9.3,260
-"Gardner-Webb","Big South",-9.39,261
-"Canisius","MAAC",-9.41,262
-"Eastern Ill.","OVC",-9.71,263
-"St. Francis Brooklyn","NEC",-9.83,264
-"Army West Point","Patriot",-10.01,265
-"Colgate","Patriot",-10.02,266
-"Rider","MAAC",-10.15,267
-"Norfolk St.","MEAC",-10.45,268
-"Campbell","Big South",-10.5,269
-"Texas Southern","SWAC",-10.51,270
-"Binghamton","Am. East",-10.53,271
-"UC Santa Barbara","Big West",-10.55,272
-"UNC Greensboro","Southern",-10.68,273
-"UTSA","C-USA",-10.75,274
-"Bethune-Cookman","MEAC",-10.83,275
-"Valparaiso","MVC",-10.89,276
-"Saint Francis (PA)","NEC",-11.08,277
-"Albany (NY)","Am. East",-11.13,278
-"Cal Poly","Big West",-11.22,279
-"Omaha","Summit",-11.57,280
-"UTEP","C-USA",-11.65,281
-"Louisiana","Sunbelt",-11.68,282
-"North Florida","A-Sun",-11.82,283
-"Central Ark.","Southland",-11.83,284
-"Bryant","NEC",-11.9,285
-"North Dakota St.","Summit",-12.08,286
-"Oakland","Horizon",-12.13,287
-"Hofstra","CAA",-12.42,288
-"Fairfield","MAAC",-12.5,289
-"Weber St.","Big Sky",-12.5,290
-"Purdue Fort Wayne","Summit",-12.51,291
-"Monmouth","MAAC",-12.56,292
-"Alabama A&M","SWAC",-12.82,293
-"Richmond","A-10",-13.02,294
-"Central Conn. St.","NEC",-13.04,295
-"Southeastern La.","Southland",-13.28,296
-"Seattle U","WAC",-13.29,297
-"Jackson St.","SWAC",-13.31,298
-"Col. of Charleston","CAA",-13.53,299
-"Siena","MAAC",-13.6,300
-"Lafayette","Patriot",-13.69,301
-"Sacramento St.","Big Sky",-13.79,302
-"San Jose St.","MWC",-14.01,303
-"South Carolina St.","MEAC",-14.05,304
-"Detroit Mercy","Horizon",-14.42,305
-"La Salle","A-10",-14.48,306
-"Loyola Maryland","Patriot",-14.6,307
-"Vermont","Am. East",-15,308
-"Ga. Southern","Sunbelt",-15.68,309
-"Tennessee St.","OVC",-15.86,310
-"La.-Monroe","Sunbelt",-15.98,311
-"Fla. Atlantic","C-USA",-16.08,312
-"Manhattan","MAAC",-16.25,313
-"Presbyterian","Big South",-16.25,314
-"Winthrop","Big South",-16.27,315
-"Niagara","MAAC",-16.33,316
-"Northwestern St.","Southland",-16.64,317
-"Houston Baptist","Southland",-16.91,318
-"Charleston So.","Big South",-16.97,319
-"Grand Canyon","WAC",-17.04,320
-"FIU","C-USA",-17.64,321
-"New Hampshire","Am. East",-17.77,322
-"UMass Lowell","Am. East",-17.8,323
-"Saint Peter's","MAAC",-17.92,324
-"NJIT","A-Sun",-18.03,325
-"USC Upstate","Big South",-18.14,326
-"UIC","Horizon",-18.57,327
-"Wagner","NEC",-18.71,328
-"Morgan St.","MEAC",-18.82,329
-"Alabama St.","SWAC",-18.84,330
-"UMBC","Am. East",-18.91,331
-"Evansville","MVC",-19.56,332
-"Eastern Ky.","OVC",-19.6,333
-"Coppin St.","MEAC",-19.65,334
-"New Orleans","Southland",-20.25,335
-"Lipscomb","A-Sun",-21.32,336
-"Delaware St.","MEAC",-22.04,337
-"Mississippi Val.","SWAC",-22.08,338
-"N.C. Central","MEAC",-22.45,339
-"Incarnate Word","Southland",-22.51,340
-"Fairleigh Dickinson","NEC",-22.67,341
-"Iona","MAAC",-22.68,342
-"Western Caro.","Southern",-22.95,343
-"Longwood","Big South",-25.13,344
-"Florida A&M","MEAC",-25.71,345
-"McNeese","Southland",-26.59,346
-"Alcorn","SWAC",-26.63,347
-"Savannah St.","MEAC",-27.55,348
-"Ark.-Pine Bluff","SWAC",-28.68,349
-"LIU Brooklyn","NEC",-28.73,350
-"Chicago St.","WAC",-34.22,351
+"Mississippi St.","SEC",42.13,1
+"UConn","AAC",39.67,2
+"Notre Dame","ACC",39.56,3
+"Baylor","Big 12",37.87,4
+"Oregon","Pac 12",37.68,5
+"Marquette","Big East",36.17,6
+"Louisville","ACC",31.66,7
+"Oregon St.","Pac 12",29.78,8
+"Iowa St.","Big 12",29.61,9
+"Stanford","Pac 12",29.25,10
+"NC State","ACC",24.36,11
+"Maryland","Big 10",23.48,12
+"Arizona St.","Pac 12",23.44,13
+"Syracuse","ACC",23.1,14
+"Iowa","Big 10",22.87,15
+"Kentucky","SEC",22.79,16
+"South Carolina","SEC",22.79,17
+"Gonzaga","WCC",22.27,18
+"Utah","Pac 12",21.79,19
+"West Virginia","Big 12",21.35,20
+"South Dakota St.","Summit",20.79,21
+"Michigan St.","Big 10",20.73,22
+"Texas A&M","SEC",20.43,23
+"Miami (FL)","ACC",20.19,24
+"Texas","Big 12",20.06,25
+"Central Mich.","MAC",19.16,26
+"UCLA","Pac 12",18.91,27
+"Drake","MVC",18.71,28
+"California","Pac 12",18.68,29
+"South Dakota","Summit",18.49,30
+"North Carolina","ACC",18.47,31
+"Rutgers","Big 10",18.11,32
+"Florida St.","ACC",17.64,33
+"DePaul","Big East",17.38,34
+"Butler","Big East",17.37,35
+"Missouri","SEC",17.1,36
+"Michigan","Big 10",17.02,37
+"Northwestern","Big 10",17.02,38
+"James Madison","CAA",16.89,39
+"Tennessee","SEC",16.62,40
+"Southern California","Pac 12",16.56,41
+"Ohio","MAC",16.41,42
+"Nebraska","Big 10",16.36,43
+"Auburn","SEC",16.15,44
+"Virginia Tech","ACC",16.09,45
+"Indiana","Big 10",15.91,46
+"Arizona","Pac 12",15.45,47
+"Georgia Tech","ACC",14.93,48
+"TCU","Big 12",14.88,49
+"Oklahoma St.","Big 12",14.22,50
+"Buffalo","MAC",14.21,51
+"South Fla.","AAC",14.05,52
+"Purdue","Big 10",14.03,53
+"UCF","AAC",13.83,54
+"LSU","SEC",13.74,55
+"Kansas","Big 12",13.59,56
+"Arkansas","SEC",13.57,57
+"FGCU","A-Sun",13.39,58
+"Saint Mary's (CA)","WCC",13.08,59
+"Kansas St.","Big 12",13,60
+"Belmont","OVC",12.98,61
+"Green Bay","Horizon",12.77,62
+"Boston College","ACC",12.71,63
+"Villanova","Big East",12.7,64
+"Duke","ACC",12.5,65
+"New Mexico","MWC",12.44,66
+"Georgia","SEC",12.35,67
+"Clemson","ACC",12.27,68
+"Quinnipiac","MAAC",12.03,69
+"Wyoming","MWC",12.01,70
+"Penn","Ivy",11.77,71
+"Dayton","A-10",11.75,72
+"Minnesota","Big 10",11.64,73
+"UT Arlington","Sunbelt",11.54,74
+"Seton Hall","Big East",11.39,75
+"Washington St.","Pac 12",11.26,76
+"Ohio St.","Big 10",11.1,77
+"Harvard","Ivy",10.96,78
+"Georgetown","Big East",10.81,79
+"Missouri St.","MVC",10.75,80
+"UC Davis","Big West",10.61,81
+"Bucknell","Patriot",10.55,82
+"Boise St.","MWC",10.04,83
+"Princeton","Ivy",9.81,84
+"Colorado","Pac 12",9.78,85
+"St. John's (NY)","Big East",9.77,86
+"Houston","AAC",9.76,87
+"BYU","WCC",9.65,88
+"Texas Tech","Big 12",9.54,89
+"UAB","C-USA",9.44,90
+"Creighton","Big East",9.4,91
+"Middle Tenn.","C-USA",9.34,92
+"Rice","C-USA",9.21,93
+"Toledo","MAC",9.17,94
+"Cincinnati","AAC",9.12,95
+"Youngstown St.","Horizon",8.74,96
+"Fresno St.","MWC",8.57,97
+"Troy","Sunbelt",8.19,98
+"VCU","A-10",7.97,99
+"Miami (OH)","MAC",7.65,100
+"Alabama","SEC",7.6,101
+"Oklahoma","Big 12",7.53,102
+"Wright St.","Horizon",7.27,103
+"Western Ky.","C-USA",7.05,104
+"Washington","Pac 12",7.03,105
+"IUPUI","Horizon",6.99,106
+"Kent St.","MAC",6.88,107
+"Vanderbilt","SEC",6.75,108
+"Pacific","WCC",6.73,109
+"Penn St.","Big 10",6.68,110
+"Providence","Big East",6.5,111
+"UNI","MVC",6.14,112
+"Little Rock","Sunbelt",6.12,113
+"Tulane","AAC",6.09,114
+"Northern Ill.","MAC",5.98,115
+"Lamar University","Southland",5.84,116
+"Maine","Am. East",5.68,117
+"SFA","Southland",5.39,118
+"Portland St.","Big Sky",5.34,119
+"Illinois","Big 10",5.29,120
+"Drexel","CAA",5.27,121
+"Wisconsin","Big 10",5.21,122
+"Old Dominion","C-USA",5.15,123
+"Denver","Summit",5.09,124
+"CSUN","Big West",4.71,125
+"Wake Forest","ACC",4.45,126
+"Milwaukee","Horizon",4.18,127
+"Virginia","ACC",4.13,128
+"Idaho","Big Sky",4.06,129
+"Hartford","Am. East",4,130
+"American","Patriot",3.91,131
+"Idaho St.","Big Sky",3.9,132
+"Utah St.","MWC",3.62,133
+"Davidson","A-10",3.27,134
+"Morehead St.","OVC",3.25,135
+"Temple","AAC",2.96,136
+"Lehigh","Patriot",2.82,137
+"Radford","Big South",2.76,138
+"Northeastern","CAA",2.73,139
+"Louisiana Tech","C-USA",2.7,140
+"Xavier","Big East",2.64,141
+"Fordham","A-10",2.59,142
+"Pepperdine","WCC",2.5,143
+"Northern Colo.","Big Sky",2.45,144
+"UT Martin","OVC",2.39,145
+"Loyola Marymount","WCC",1.91,146
+"Ball St.","MAC",1.87,147
+"North Texas","C-USA",1.81,148
+"Marist","MAAC",1.36,149
+"Southern Ill.","MVC",1.36,150
+"Oral Roberts","Summit",1.35,151
+"North Ala.","A-Sun",1.26,152
+"UMKC","WAC",1.19,153
+"Akron","MAC",1.1,154
+"Pittsburgh","ACC",1.02,155
+"UC Riverside","Big West",0.95,156
+"Mercer","Southern",0.58,157
+"Ole Miss","SEC",0.5,158
+"Yale","Ivy",0.38,159
+"Duquesne","A-10",0.27,160
+"Bradley","MVC",0.25,161
+"Tennessee Tech","OVC",0.21,162
+"Florida","SEC",0.2,163
+"Chattanooga","Southern",0.06,164
+"Dartmouth","Ivy",-0.06,165
+"Saint Louis","A-10",-0.17,166
+"South Alabama","Sunbelt",-0.54,167
+"SMU","AAC",-0.69,168
+"UC Irvine","Big West",-0.72,169
+"Hawaii","Big West",-0.82,170
+"UNLV","MWC",-0.84,171
+"Robert Morris","NEC",-0.97,172
+"Montana St.","Big Sky",-1.15,173
+"George Mason","A-10",-1.28,174
+"Eastern Mich.","MAC",-1.29,175
+"High Point","Big South",-1.3,176
+"Illinois St.","MVC",-1.33,177
+"UNCW","CAA",-1.54,178
+"San Diego St.","MWC",-1.87,179
+"Towson","CAA",-1.94,180
+"Southern Miss.","C-USA",-1.95,181
+"Tulsa","AAC",-1.98,182
+"Cornell","Ivy",-2.05,183
+"Nevada","MWC",-2.14,184
+"Cleveland St.","Horizon",-2.15,185
+"Portland","WCC",-2.33,186
+"Bowling Green","MAC",-2.37,187
+"California Baptist","WAC",-2.44,188
+"Coastal Caro.","Sunbelt",-2.68,189
+"Delaware","CAA",-2.79,190
+"William & Mary","CAA",-2.8,191
+"San Francisco","WCC",-2.83,192
+"Montana","Big Sky",-2.84,193
+"Abilene Christian","Southland",-3.09,194
+"New Mexico St.","WAC",-3.21,195
+"Stony Brook","Am. East",-3.28,196
+"Santa Clara","WCC",-3.3,197
+"Charlotte","C-USA",-3.35,198
+"Massachusetts","A-10",-3.41,199
+"Stetson","A-Sun",-3.54,200
+"Appalachian St.","Sunbelt",-3.57,201
+"George Washington","A-10",-3.91,202
+"Georgia St.","Sunbelt",-3.95,203
+"Loyola Chicago","MVC",-4.15,204
+"Colorado St.","MWC",-4.21,205
+"Air Force","MWC",-4.23,206
+"Columbia","Ivy",-4.33,207
+"Boston U.","Patriot",-4.54,208
+"Indiana St.","MVC",-4.64,209
+"Liberty","A-Sun",-4.69,210
+"Sam Houston St.","Southland",-4.7,211
+"Jacksonville St.","OVC",-4.78,212
+"Austin Peay","OVC",-4.97,213
+"Northern Ky.","Horizon",-5,214
+"Holy Cross","Patriot",-5.26,215
+"Wichita St.","AAC",-5.3,216
+"N.C. A&T","MEAC",-5.35,217
+"Memphis","AAC",-5.36,218
+"Cal St. Fullerton","Big West",-5.53,219
+"Texas St.","Sunbelt",-5.54,220
+"Saint Joseph's","A-10",-5.58,221
+"Marshall","C-USA",-5.69,222
+"UMES","MEAC",-5.8,223
+"SIUE","OVC",-5.81,224
+"Hampton","Big South",-5.91,225
+"UNC Asheville","Big South",-5.91,226
+"Arkansas St.","Sunbelt",-6.08,227
+"ETSU","Southern",-6.12,228
+"Western Ill.","Summit",-6.25,229
+"Furman","Southern",-6.27,230
+"East Carolina","AAC",-6.38,231
+"UTRGV","WAC",-6.52,232
+"A&M-Corpus Christi","Southland",-6.78,233
+"Prairie View","SWAC",-6.81,234
+"Western Mich.","MAC",-6.93,235
+"Nicholls St.","Southland",-7.27,236
+"Elon","CAA",-7.36,237
+"North Dakota","Summit",-7.41,238
+"Rhode Island","A-10",-7.49,239
+"Brown","Ivy",-7.51,240
+"San Diego","WCC",-7.65,241
+"Eastern Wash.","Big Sky",-7.73,242
+"Southeast Mo. St.","OVC",-7.75,243
+"Long Beach St.","Big West",-7.88,244
+"Howard","MEAC",-7.91,245
+"Navy","Patriot",-7.94,246
+"St. Bonaventure","A-10",-7.99,247
+"Northern Ariz.","Big Sky",-8.01,248
+"Rider","MAAC",-8.4,249
+"Jacksonville","A-Sun",-8.44,250
+"Samford","Southern",-8.47,251
+"Grambling","SWAC",-8.51,252
+"Murray St.","OVC",-8.58,253
+"Utah Valley","WAC",-8.63,254
+"CSU Bakersfield","WAC",-8.81,255
+"Wofford","Southern",-8.86,256
+"Southern Utah","Big Sky",-8.93,257
+"Mount St. Mary's","NEC",-8.95,258
+"Gardner-Webb","Big South",-9.11,259
+"Colgate","Patriot",-9.19,260
+"Canisius","MAAC",-9.22,261
+"Sacred Heart","NEC",-9.34,262
+"Eastern Ill.","OVC",-9.41,263
+"Saint Francis (PA)","NEC",-9.63,264
+"Binghamton","Am. East",-9.66,265
+"St. Francis Brooklyn","NEC",-9.69,266
+"UC Santa Barbara","Big West",-9.84,267
+"Louisiana","Sunbelt",-9.92,268
+"Kennesaw St.","A-Sun",-10.03,269
+"Texas Southern","SWAC",-10.23,270
+"Norfolk St.","MEAC",-10.39,271
+"Southern U.","SWAC",-10.63,272
+"Army West Point","Patriot",-10.76,273
+"UNC Greensboro","Southern",-10.81,274
+"Campbell","Big South",-10.83,275
+"Albany (NY)","Am. East",-10.89,276
+"Bethune-Cookman","MEAC",-10.89,277
+"North Florida","A-Sun",-10.9,278
+"Cal Poly","Big West",-11.19,279
+"UTSA","C-USA",-11.22,280
+"Valparaiso","MVC",-11.41,281
+"Omaha","Summit",-11.52,282
+"UTEP","C-USA",-11.65,283
+"Central Ark.","Southland",-11.79,284
+"Hofstra","CAA",-12.04,285
+"Monmouth","MAAC",-12.12,286
+"Purdue Fort Wayne","Summit",-12.12,287
+"North Dakota St.","Summit",-12.14,288
+"Oakland","Horizon",-12.39,289
+"San Jose St.","MWC",-12.49,290
+"Fairfield","MAAC",-12.7,291
+"Weber St.","Big Sky",-12.95,292
+"Alabama A&M","SWAC",-13.03,293
+"Bryant","NEC",-13.06,294
+"Richmond","A-10",-13.12,295
+"Lafayette","Patriot",-13.18,296
+"Jackson St.","SWAC",-13.28,297
+"Manhattan","MAAC",-13.36,298
+"Seattle U","WAC",-13.41,299
+"Sacramento St.","Big Sky",-13.73,300
+"Loyola Maryland","Patriot",-13.82,301
+"Detroit Mercy","Horizon",-13.87,302
+"Siena","MAAC",-13.88,303
+"Central Conn. St.","NEC",-13.99,304
+"South Carolina St.","MEAC",-14.02,305
+"La Salle","A-10",-14.22,306
+"Southeastern La.","Southland",-14.87,307
+"Vermont","Am. East",-15.09,308
+"Col. of Charleston","CAA",-15.28,309
+"Winthrop","Big South",-15.36,310
+"Ga. Southern","Sunbelt",-15.66,311
+"Tennessee St.","OVC",-15.9,312
+"Niagara","MAAC",-16.07,313
+"Presbyterian","Big South",-16.28,314
+"Fla. Atlantic","C-USA",-16.57,315
+"Grand Canyon","WAC",-16.82,316
+"Charleston So.","Big South",-17.02,317
+"La.-Monroe","Sunbelt",-17.08,318
+"FIU","C-USA",-17.41,319
+"Alabama St.","SWAC",-17.44,320
+"Houston Baptist","Southland",-17.58,321
+"Northwestern St.","Southland",-17.58,322
+"Saint Peter's","MAAC",-17.91,323
+"UIC","Horizon",-18.26,324
+"UMass Lowell","Am. East",-18.29,325
+"NJIT","A-Sun",-18.43,326
+"New Hampshire","Am. East",-18.51,327
+"UMBC","Am. East",-18.65,328
+"USC Upstate","Big South",-18.66,329
+"Evansville","MVC",-18.84,330
+"Morgan St.","MEAC",-19.12,331
+"New Orleans","Southland",-19.45,332
+"Coppin St.","MEAC",-19.59,333
+"Eastern Ky.","OVC",-20.02,334
+"Wagner","NEC",-20.39,335
+"Lipscomb","A-Sun",-21.48,336
+"Fairleigh Dickinson","NEC",-21.5,337
+"Delaware St.","MEAC",-21.8,338
+"Incarnate Word","Southland",-22,339
+"Western Caro.","Southern",-22.24,340
+"N.C. Central","MEAC",-22.37,341
+"Mississippi Val.","SWAC",-22.75,342
+"Iona","MAAC",-22.89,343
+"Longwood","Big South",-24.67,344
+"Florida A&M","MEAC",-25.27,345
+"McNeese","Southland",-26.72,346
+"Alcorn","SWAC",-26.76,347
+"Savannah St.","MEAC",-27.65,348
+"LIU Brooklyn","NEC",-27.9,349
+"Ark.-Pine Bluff","SWAC",-31.04,350
+"Chicago St.","WAC",-34.33,351
