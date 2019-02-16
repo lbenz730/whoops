@@ -8,7 +8,7 @@ source("powerrankings.R")
 source("Ivy_Sims.R")
 source("tourney_sim.R")
 confs <- read.csv("conferences.csv", as.is = T)
-y <- read.csv("Results/NCAA_WHoops_Results_2_2_2019.csv", as.is = T)
+y <- read.csv("Results/NCAA_WHoops_Results_2_10_2019.csv", as.is = T)
 ########################  Data Cleaning ########################################
 y <- y %>%
   mutate(scorediff = teamscore - oppscore, 
