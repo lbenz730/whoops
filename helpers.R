@@ -211,10 +211,11 @@ playoff_graphic <- function() {
   
   
   mutate(playoffs, auto_bid = case_when(
-    auto_bid > 0 ~ auto_bid,
-    playoff_prob > 0 ~ 0.1)
+    auto_bid > 0.1 ~ auto_bid,
+    playoff_prob > 0 ~ 0.1,
+    T ~ 0)
   ) %>%
-    arrange(desc(round(playoff_prob,1)), desc(seed1_prob)) %>%
+    arrange(desc(auto_bid), desc(playoff_prob)) %>%
     rename("Team" = Team,
            "Auto Bid" = auto_bid,
            "Playoff Probability" = playoff_prob,
