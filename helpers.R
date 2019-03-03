@@ -215,7 +215,7 @@ playoff_graphic <- function() {
     playoff_prob > 0 ~ 0.1,
     T ~ 0)
   ) %>%
-    arrange(desc(auto_bid), desc(playoff_prob)) %>%
+    arrange(desc(playoff_prob), desc(seed1_prob)) %>%
     rename("Team" = Team,
            "Auto Bid" = auto_bid,
            "Playoff Probability" = playoff_prob,

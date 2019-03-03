@@ -198,7 +198,7 @@ ivy.sim <- function(nsims) {
     playoffs$seed2_prob[i] <- round(sum(prebreak.pos[,i] == 2)/nsims * 100, 1)
     playoffs$seed3_prob[i] <- round(sum(prebreak.pos[,i] == 3)/nsims * 100, 1)
     playoffs$seed4_prob[i] <- round(sum(prebreak.pos[,i] == 4)/nsims * 100, 1)
-    playoffs$playoff_prob[i] <- sum(playoffs[i,4:7], na.rm = T)
+    playoffs$playoff_prob[i] <- round(sum(prebreak.pos[,i] <= 4)/nsims * 100, 1)
   }
   write.table(playoffs, "Predictions/playoffs.csv", row.names = F, col.names = T, sep = ",")
   playoff_history <- read.csv("Predictions/playoff_history.csv", as.is = T) %>%
